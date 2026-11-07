@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R.M. Maneesha Kalpani | Portfolio</title>
+  <meta name="description" content="Portfolio of R.M. Maneesha Kalpani, Informatics Engineering student, data analyst and web developer." />
+
+  <!-- Poppins font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Maneesha<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section id="home" class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>R.M. Maneesha <span class="accent">Kalpani</span></h1>
+          <p class="tagline">
+            Informatics Engineering student, data analyst and web developer, with a background
+            in science diplomacy and international leadership.
+          </p>
+          <div class="hero-buttons">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="profile-card parallax-card">
+            <img src="images/profile.jpg" alt="R.M. Maneesha Kalpani" />
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-indicator">
+        <span class="scroll-line"></span>
+        Scroll
+      </a>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div class="about-text" data-aos="fade-up">
+          <h2 class="section-title">About <span class="accent">Me</span></h2>
+          <p class="bio">
+            I am an Informatics Engineering student at Nusa Putra University in Indonesia, studying as a
+            fully funded international scholar. I enjoy working with data and building web applications
+            that are simple and useful. Alongside my technical studies, I have trained in science
+            diplomacy and evidence co-creation, and I care about using technology to support people
+            and communities.
+          </p>
+
+          <div class="tabs">
+            <button class="tab-btn active" data-tab="skills">Skills</button>
+            <button class="tab-btn" data-tab="experience">Experience</button>
+            <button class="tab-btn" data-tab="education">Education</button>
+          </div>
+
+          <div class="tab-content active" id="skills">
+            <ul>
+              <li><strong>Data analysis</strong><span>Data analysis and research</span></li>
+              <li><strong>Web development</strong><span>HTML, CSS, JavaScript, Express.js</span></li>
+              <li><strong>Productivity</strong><span>Microsoft Office and AI tools</span></li>
+              <li><strong>Diplomacy</strong><span>Science diplomacy and evidence co-creation</span></li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><strong>2021 to present</strong><span>Member, Sri Lanka UFO Research Association</span></li>
+              <li><strong>2026</strong><span>Participant, Asia-Europe Science and Technology Diplomacy Initiative</span></li>
+              <li><strong>2026</strong><span>Participant, ICANDIT 2026 and I-CONSIST 2026</span></li>
+            </ul>
+          </div>
+
+          <div class="tab-content" id="education">
+            <ul>
+              <li><strong>2025 to present</strong><span>Bachelor of Informatics Engineering, Nusa Putra University</span></li>
+              <li><strong>2023 to 2024</strong><span>Diploma in IT, Esoft Metro College</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about-visual" data-aos="fade-left">
+          <div class="about-card parallax-card">
+            <img src="images/about.jpg" alt="Maneesha at Nusa Putra University" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">My <span class="accent">Services</span></h2>
+        <div class="services-grid">
+          <article class="service-card" data-aos="fade-up">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Web Development</h3>
+            <p>Clean, responsive websites and web apps built with HTML, CSS, JavaScript, and Express.js.</p>
+            <a href="#contact" class="learn-more">Learn more &rarr;</a>
+          </article>
+
+          <article class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Simple, user-friendly layouts that make information easy to find and pleasant to use.</p>
+            <a href="#contact" class="learn-more">Learn more &rarr;</a>
+          </article>
+
+          <article class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <h3>Data Analysis</h3>
+            <p>Turning raw data into clear insights, charts, and reports that support better decisions.</p>
+            <a href="#contact" class="learn-more">Learn more &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Work ===== -->
+    <section id="work" class="section">
+      <div class="container">
+        <h2 class="section-title">My <span class="accent">Work</span></h2>
+        <div class="work-grid">
+          <article class="work-item" data-aos="zoom-in">
+            <div class="work-media"><span>01</span></div>
+            <div class="work-body">
+              <p class="work-num">01 / Project</p>
+              <h3>UAP Investigation Toolkit</h3>
+              <p>A JavaScript-based npm package and companion web application designed to organize investigation reports and support evidence review.</p>
+              <ul class="work-tags"><li>JavaScript</li><li>Node.js</li><li>Express.js</li></ul>
+            </div>
+          </article>
+          <article class="work-item" data-aos="zoom-in" data-aos-delay="100">
+            <div class="work-media"><span>02</span></div>
+            <div class="work-body">
+              <p class="work-num">02 / Project</p>
+              <h3>Campus Announcement System</h3>
+              <p>A Python networking solution using socket programming and multithreading to deliver announcements to multiple clients.</p>
+              <ul class="work-tags"><li>Python</li><li>Sockets</li><li>Networking</li></ul>
+            </div>
+          </article>
+          <article class="work-item" data-aos="zoom-in" data-aos-delay="200">
+            <div class="work-media"><span>03</span></div>
+            <div class="work-body">
+              <p class="work-num">03 / Project</p>
+              <h3>Forensic Statement Analysis System</h3>
+              <p>A prototype combining Flask and NLP for analyzing statements and identifying contextual patterns in forensic research.</p>
+              <ul class="work-tags"><li>Python</li><li>Flask</li><li>NLP</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+          <p class="contact-line">
+            <span class="label">Email</span>
+            <a href="mailto:rathnaayakakalpani@gmail.com">rathnaayakakalpani@gmail.com</a>
+          </p>
+          <p class="contact-line">
+            <span class="label">Phone</span>
+            <a href="tel:+94788493919">078 849 3919</a>
+          </p>
+
+          <div class="socials">
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+            <a href="#" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07"/></svg>
+            </a>
+          </div>
+
+          <a href="/download-cv" class="btn btn-primary">Download CV</a>
+        </div>
+
+        <form class="contact-form" id="contactForm" data-aos="fade-left" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" maxlength="100" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" maxlength="255" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="How can I help?" maxlength="2000" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 R.M. Maneesha Kalpani. All rights reserved.</p>
+  </footer>
+
+  <!-- CDN libraries (loaded before main.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+  <!-- Site script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
